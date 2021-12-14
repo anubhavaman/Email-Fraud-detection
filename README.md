@@ -5,9 +5,10 @@ Fraudsters obtain sensitive information from people by pretending to be from rec
 
 It considers the detection of a fraud email as a classification problem and describes the use of machine learning algorithms to classify emails as phished or ham. 
 some features were extracted from all emails in a dataset which consists of n number of phished emails and  m number of  ham emails. These features are fed into the classifiers and results are noted. Our Aim is to develop  a system  which provides higher accuracy and study the variation of features.
-The dataset is collected by the Publically available sources. We will use Naïve bayes classifier to solve this problem. Naïve Bayes is a very good  machine learning algorithm applied in email filtering. 
-Why use Naive Bayes?
+The dataset is collected by the Publically available sources. We will use Naïve bayes classifier to solve this problem. Naïve Bayes is a very good  machine learning algorithm applied in email filtering.
 
+
+Why use Naive Bayes?
 
 •	NB is very simple, easy to implement and fast because essentially you’re just doing a bunch of counts.
 •	If the NB conditional independence assumption holds, then it will converge quicker than discriminative models like logistic regression.
