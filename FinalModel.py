@@ -147,8 +147,8 @@ def MainPage():
             # calling function to check for email under this label
             con.select('Inbox')
              
-             # fetching emails from this user "tu**h*****1@gmail.com"
-            msgs = get_emails(search('FROM', 'chapranakumarprince@gmail.com', con))
+            
+            msgs = get_emails(search('FROM', 'anubhav.aman.92@gmail.com', con))
             
             # printing them by the order they are displayed in your gmail
             index = 0
